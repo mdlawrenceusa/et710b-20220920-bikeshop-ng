@@ -14,6 +14,8 @@ import { BikeShopComponent } from './bike-shop/bike-shop.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'bikeshop', component: BikeShopComponent },
+
     ])
   ],
   declarations: [
